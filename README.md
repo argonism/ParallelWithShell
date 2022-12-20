@@ -2,7 +2,11 @@
 
 バックグラウンドプロセス使って並列処理するサンプル
 
+
 # 実行速度比較
+
+１千万件のtsvで実験
+※ リポジトリに含まれているdata.tsvは1万件です
 
 ``` shell
 $ time python preprocess.py data.tsv preprocessed.tsv
